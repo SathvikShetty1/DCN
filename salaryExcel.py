@@ -15,7 +15,7 @@ print(filtered_data)
 
 
 sorted_data=df.sort_value(by='Salary',ascending=false)
-print("\nSOrted data(by Salary):")
+print("\nSorted data(by Salary):")
 print(sorted_data)
 
 df['Bonus']=df['Salary']*0.1
